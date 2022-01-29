@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <form onsubmit="signUp(this)">
+
+        <label for="usernane">Username</label>
+        <input type="text" id="username" placeholder="Please Enter Username" required/>
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Please Enter Email" required/>
+        <label for="country">Country</label>
+        <input type="text" id="country" placeholder="Please Enter Country " required/>
+        <label for="number">Phone Number</label>
+        <input type="number" id="number" placeholder="Please Enter Phone Number" required/>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Please Enter Password" minlength="6" maxlength="12" required/>
+        <span class="anchor"><i onclick="showPass(this)" class="fas fa-eye show"></i>Show password</span>
+        <button class="btn">Sign Up</button>
+      </form>
+
+      <p class="para-1">
+        By clicking the Sign Up button,you agree to our <br />
+        <a href="javascript:void(0)">Terms and Condition</a> and <a href="javascript:void(0)">Policy Privacy</a>
+      </p>
+
+      <p class="para-2">
+        Already have an account? <a href="login.html">Login here</a>
+      </p>
+    </div>
+
+  </body>
+<script src="./app.js"></script>
+</html>

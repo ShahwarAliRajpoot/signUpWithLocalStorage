@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    background-color: rgb(2, 61, 95);
+    /* font-family: "Roboto", sans-serif; */
+    font-family: serif , cursive;
+
+  }
+  
+  .signup-box {
+    width: 360px;
+    height: 520px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 10px;
+  }
+.signup-box:hover{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+  .login-box {
+    width: 360px;
+    height: 300px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 3px;
+    background-color: white;
+    border-radius: 10px;
+  }
+  .login-box:hover{
+    box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+  
+  h1 {
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    text-shadow: 0 0 10px rgb(2, 61, 95),
+    0 0 20px rgb(2, 61, 95),
+    0 0 40px rgb(2, 61, 95),
+    0 0 80px rgb(2, 61, 95)
+  }
+
+  form {
+    width: 300px;
+    margin-left: 20px;
+  }
+  
+  form label {
+    display: flex;
+    margin-top: 7px;
+    font-size: 18px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+  }
+
+.btn{
+    width: 320px;
+    height: 35px;
+    margin-top: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(2, 61, 95);
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: serif;
+}
+.btn:hover{
+ box-shadow: 4px 4px 4px #000;
+}
+
+  .para-1 {
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+  }
+  .para-1 a {
+      text-decoration: none;
+  }
+
+  .para-2 {
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .para-2 a {
+    text-decoration: none;
+    color:rgb(2, 61, 95);
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .para-3 {
+    text-align: center;
+    color: rgb(39, 39, 39);
+    font-size: 15px;
+    margin-top: -35px;
+  }
+  .para-3 a {
+    text-decoration: none;
+    color: rgb(2, 61, 95);
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .anchor{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding-top: 5px;
+}
+.anchor:hover{
+    color: #000;
+}
+.show{
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.dash-box {
+  width: 360px;
+  height: 300px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+.dash-box:hover{
+  box-shadow: 4px 4px 4px rgb(0, 0, 0);
+}
+
+.table tr{
+  border: olivedrab 3px solid;
+  color:rgb(0, 0, 0);
+  font-size: 20px;
+  margin: 20px;
+}
+.table tr td{
+  padding: 10px;
+}
+
+.logout{
+  width: 100px;
+  height: 35px;
+  margin-top: 13px;
+  margin-left: 12px;
+  border: none;
+  color: white;
+  background-color: rgb(2, 61, 95);
+  font-size: 18px;
+  border-radius: 10px;
+  font-family: serif;
+}
+.logout:hover{
+  box-shadow: 4px 4px 4px #000;
+ }
+
+
+ 
